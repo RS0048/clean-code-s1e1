@@ -4,21 +4,21 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.descriptionOfProject {
+.section-description-project {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.descriptionOfProject img {
+.section-description-project img {
   width: 100%;
 }
-.descriptionOfProject .descriptionOfProject__info {
+.section-description-project .section-description-project__info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .descriptionOfProject {
+  .section-description-project {
     text-align: center;
   }
 }
@@ -27,12 +27,12 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.task-item__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.newTaskWrapper {
+.new-task-wrapper {
   display: flex;
 }
 ul {
@@ -61,7 +61,7 @@ button:hover {
 }
 /* Heading */
 h2,
-label[for='newTask'] {
+label[for='new-task'] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -87,11 +87,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='newTask'] {
+label[for='new-task'] {
   display: block;
   margin: 0 0 20px;
 }
-#newTask {
+#new-task {
   width: 318px;
 }
 
@@ -132,7 +132,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-#workWithCompletedTasks label {
+#work-with-completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
@@ -142,11 +142,11 @@ ul li input[type=text] {
   display:none;
 }
 
-ul li.edit_modificed input[type=text] {
+ul li.task-item_active input[type=text] {
   display:inline-block;
   width:224px;
 }
 
-ul li.edit_modificed label {
+ul li.task-item_active label {
   display:none;
 }

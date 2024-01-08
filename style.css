@@ -13,7 +13,7 @@ body {
 .descriptionOfProject img {
   width: 100%;
 }
-.descriptionOfProject .descriptionOfProject __info {
+.descriptionOfProject .descriptionOfProject__info {
   font-family: fantasy, cursive;
 }
 
